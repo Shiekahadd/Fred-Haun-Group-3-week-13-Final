@@ -32,7 +32,7 @@ services:
     - "zookeeper"
 
   redis:
-    image:
+    image: scmurdock/stedi
     ports:
 
 
