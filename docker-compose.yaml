@@ -31,9 +31,9 @@ services:
     depends_on:
     - "zookeeper"
 
-  redis:
+    STEDI:
     image: scmurdock/stedi
     ports:
-      -"6379:6379"
+      -"4567:4567"
 
 
