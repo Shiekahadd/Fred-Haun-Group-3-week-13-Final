@@ -7,6 +7,7 @@
 # * Kafka Connect
 #
 # i made a change - lucas
+# made 2 changes
 version: '3.7'
 
 services:
