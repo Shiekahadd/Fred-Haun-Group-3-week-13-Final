@@ -31,4 +31,8 @@ services:
     depends_on:
     - "zookeeper"
 
+  redis:
+    image:
+    ports:
+
 
