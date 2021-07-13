@@ -35,5 +35,6 @@ services:
     image: scmurdock/stedi
     ports:
       -"4567:4567"
+      environment:
 
 
